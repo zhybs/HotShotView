@@ -26,6 +26,7 @@ typedef NS_ENUM(NSUInteger, HotShotType) {
 };
 @interface ShotUpdeteModel : NSObject
 @property(nonatomic,assign)HotShotType shotType;
+///计算各区域
 @property(nonatomic,assign)NSInteger dividendValue; //被除数
 @property(nonatomic,assign)NSInteger divisorValue; //除数
 @end
